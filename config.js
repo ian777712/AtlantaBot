@@ -1,32 +1,32 @@
 module.exports = {
 	/* The token of your Discord Bot */
-	token: "XXXXXXXXXXX",
+	token: "NzcwMTA0NjkxNzYwOTU1NDQy.X5Yt4g.sKrf_HDsKAVyVF7336pTnMEIFVs",
 	/* For the support server */
 	support: {
-		id: "XXXXXXXXXXX", // The ID of the support server
-		logs: "XXXXXXXXXXX", // And the ID of the logs channel of your server (new servers for example)
+		id: "769920499303579658", // The ID of the support server
+		logs: "770426129324310541", // And the ID of the logs channel of your server (new servers for example)
 	},
 	/* Dashboard configuration */
 	dashboard: {
 		enabled: false, // whether the dashboard is enabled or not
-		secret: "XXXXXXXXXXX", // Your discord client secret
+		secret: "M2BIB1aAHpfG7a5Pq6obwZ9XjFG8QNXI", // Your discord client secret
 		baseURL: "https://dashboard.atlanta-bot.fr", // The base URl of the dashboard
-		logs: "XXXXXXXXXXX", // The channel ID of logs
+		logs: "770426129324310541", // The channel ID of logs
 		port: 8080, // Dashboard port
 		expressSessionPassword: "XXXXXXXXXXX", // Express session password (it can be what you want)
 		failureURL: "https://www.atlanta-bot.fr" // url on which users will be redirected if they click the cancel button (discord authentication)
 	},
 	mongoDB: "mongodb://localhost:27017/AtlantaBot", // The URl of the mongodb database
-	prefix: "*", // The default prefix for the bot
+	prefix: "c!", // The default prefix for the bot
 	/* For the embeds (embeded messages) */
 	embed: {
 		color: "#0091fc", // The default color for the embeds
-		footer: "Atlanta | Open Source" // And the default footer for the embeds
+		footer: "coret| Open Source" // And the default footer for the embeds
 	},
 	/* Bot's owner informations */
 	owner: {
-		id: "XXXXXXXXXXX", // The ID of the bot's owner
-		name: "Androz#2091" // And the name of the bot's owner
+		id: "769652460011782144", // The ID of the bot's owner
+		name: "Coretdv#78361" // And the name of the bot's owner
 	},
 	/* DBL votes webhook (optional) */
 	votes: {
@@ -57,11 +57,11 @@ module.exports = {
 	/* The Bot status */
 	status: [
 		{
-			name: "@Atlanta help on {serversCount} servers",
+			name: "@Coretd help on {serversCount} servers",
 			type: "LISTENING"
 		},
 		{
-			name: "my website : atlanta-bot.fr",
+			name: "coretus version 2.8.5"
 			type: "PLAYING"
 		}
 	],
