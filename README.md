@@ -1,1 +1,0 @@
-[![Run on Repl.it](https://repl.it/badge/github/ian777712/AtlantaBot)](https://repl.it/github/ian777712/AtlantaBot)
